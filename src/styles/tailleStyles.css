@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     font-family: 'JejuHallasan';
     min-height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 a{
     text-decoration: none;
@@ -47,4 +47,67 @@ h1{
 #olivier{
     height: 200px;
     width: 170px;
+}
+h3{
+    color: white;
+    font-size: 28px;
+}
+
+.card{
+    height: 500px;
+    border-radius: 15px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #63A478;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    margin-top: 6rem;
+}
+
+#olive{
+    width: 420px;
+    height: 260px;
+}
+
+.card2{
+    height: 400px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    align-items: center;
+    background-color: #63A478;
+    border-radius: 15px;
+    overflow: hidden;
+}
+button{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 73px;
+    flex-shrink: 0; 
+    border-radius: 10px;
+    background: #168039; 
+}
+
+#sec2{
+    background-color: #fff;
 }
