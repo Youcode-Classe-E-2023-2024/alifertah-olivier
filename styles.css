@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
