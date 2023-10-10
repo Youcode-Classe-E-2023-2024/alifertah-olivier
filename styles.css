@@ -15,3 +15,18 @@ a{
     height: 30px;
     width: 30px;
 }
+
+#navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+#tabs{
+    display: flex;
+}
+.tab{
+    padding: 0 1rem;
+}
