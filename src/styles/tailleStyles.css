@@ -2,9 +2,15 @@
     margin: 0;
 }
 
+html{
+}
+
 body{
     background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
     background-repeat: no-repeat;
+    font-family: 'JejuHallasan';
+    min-height: 100%;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -14,6 +20,12 @@ a{
 .icon{
     height: 30px;
     width: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    text-align: center;
 }
 
 #navbar{
@@ -27,6 +39,12 @@ a{
 #tabs{
     display: flex;
 }
+
 .tab{
     padding: 0 1rem;
+}
+
+#olivier{
+    height: 200px;
+    width: 170px;
 }

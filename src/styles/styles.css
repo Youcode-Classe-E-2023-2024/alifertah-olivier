@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+html{
+}
+
+body{
+    background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
+    background-repeat: no-repeat;
+    font-family: 'JejuHallasan';
+    min-height: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+#navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+#tabs{
+    display: flex;
+}
+.tab{
+    padding: 0 1rem;
+}
+
+#sloganSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#slogan{
+    font-size: 102px;
+    color: white;
+}
+
+#slogan span{
+    color: #00261C;
+}
+
+#button1{
+    background-color: #168039;
+    border: 0;
+    font-size: 48px;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+#core{
+    height: 500px;
+    width: 500px;
+}
+
+#miniSlogan{
+    position: relative;
+    left: 0;
+    font-size: 62px;
+    text-align: right;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+#miniSloganCon{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
