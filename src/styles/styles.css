@@ -63,6 +63,11 @@ a{
     margin-top: 5rem;
 }
 
+#button1:hover{
+    background: #1a883f; 
+    transition-duration: .2s;
+}
+
 #core{
     height: 500px;
     width: 500px;
