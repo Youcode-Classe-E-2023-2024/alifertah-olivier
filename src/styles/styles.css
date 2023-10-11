@@ -8,7 +8,7 @@ html{
 body{
     background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
     background-repeat: no-repeat;
-    font-family: 'JejuHallasan';
+    font-family: 'Courier New', Courier, monospace;
     min-height: 100%;
     overflow: hidden;
 }
@@ -35,6 +35,11 @@ a{
 }
 .tab{
     padding: 0 1rem;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
 }
 
 #sloganSection{

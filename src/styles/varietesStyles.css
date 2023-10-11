@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+html{
+}
+
+body{
+    background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
+    background-repeat: no-repeat;
+    font-family: 'JejuHallasan';
+    min-height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+}
+
+#navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+#tabs{
+    display: flex;
+}
+
+.tab{
+    padding: 0 1rem;
+}
+
+#sec1{
+    background-color: #849989;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 article{
+    text-align: left;
+    width: 70%;
+}
+
+#sec1 p{
+    font-size: 20px;
+}
