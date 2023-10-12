@@ -24,8 +24,10 @@ a{
 }
 
 h1{
+    margin: 2rem 0;
     color: white;
     font-size: 64px;
+    text-align: center;
 }
 
 #navbar{
@@ -45,12 +47,14 @@ h1{
 }
 
 #covers{
+    padding: 3rem 0;
     background-color: #Fff;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-#bookCard{
+.bookCard{
     cursor: pointer;
     background-color: #63A478;
     width: 385px;
@@ -61,15 +65,16 @@ h1{
     align-items: center;
 }
 
-#bookCard:hover{
+.bookCard:hover{
     background-color: #70b987;
     transition-duration: .3s;
 }
 
-#bookCard img{
+.bookCard img{
     height: 350px;
     width: 300px;
 }
+
 
 #button1{
     background-color: #168039;
@@ -85,4 +90,16 @@ h1{
 #button1:hover{
     background: #1a883f; 
     transition-duration: .2s;
+}
+
+#books{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#books h3{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
 }
