@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+html{
+}
+
+body{
+    background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
+    background-repeat: no-repeat;
+    font-family: 'JejuHallasan';
+    min-height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+}
+
+#navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+#tabs{
+    display: flex;
+}
+
+.tab{
+    padding: 0 1rem;
+}
+
+#covers{
+    background-color: #Fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bookCard{
+    cursor: pointer;
+    background-color: #63A478;
+    width: 385px;
+    height: 500px;
+    display: flex;
+    border-radius: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bookCard:hover{
+    background-color: #70b987;
+    transition-duration: .3s;
+}
+
+#bookCard img{
+    height: 350px;
+    width: 300px;
+}
+
+#button1{
+    background-color: #168039;
+    border: 0;
+    font-size: 48px;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+#button1:hover{
+    background: #1a883f; 
+    transition-duration: .2s;
+}
