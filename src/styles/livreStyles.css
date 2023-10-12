@@ -2,9 +2,6 @@
     margin: 0;
 }
 
-html{
-}
-
 body{
     background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
     background-repeat: no-repeat;
@@ -13,6 +10,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     /* overflow: hidden; */
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -24,24 +22,30 @@ a{
 }
 
 h1{
-    margin: 2rem 0;
     color: white;
     font-size: 64px;
     text-align: center;
 }
 
+#title{
+    margin: 2rem;
+}
 #navbar{
     background-color: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1.5rem 3rem;
+    /* position: sticky; */
 }
 
 #tabs{
     display: flex;
 }
 
+#tab{
+    font-size: 24px;
+}
 .tab{
     padding: 0 1rem;
 }
@@ -75,7 +79,6 @@ h1{
     width: 300px;
 }
 
-
 #button1{
     background-color: #168039;
     border: 0;
@@ -102,4 +105,64 @@ h1{
     text-align: center;
     margin-top: 3rem;
     font-size: 40px;
+}
+
+
+#sec2{
+    background-color: #fff;
+}
+#sec3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+#sec3 h3{
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.card2{
+    padding: 2rem 1rem;
+    height: 400px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    align-items: center;
+    background-color: #63A478;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.card2 h2{
+    margin: 1.5rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 100%;
+    margin-top: 6rem;
+}
+
+.container h4{
+    text-align: center;
+    font-size: 29px;
+    margin-top: 2rem;
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: space-around;
 }
