@@ -2,8 +2,6 @@
     margin: 0;
 }
 
-html{
-}
 
 body{
     background: linear-gradient(243deg, #168039 0%, #044D29 100%); 
@@ -20,6 +18,10 @@ a{
 .icon{
     height: 30px;
     width: 30px;
+}
+
+.tab{
+    font-size: 32px;
 }
 
 #navbar{

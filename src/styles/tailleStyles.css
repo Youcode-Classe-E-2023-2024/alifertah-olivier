@@ -24,6 +24,10 @@ h1{
     font-size: 64px;
 }
 
+.tab{
+    font-size: 32px;
+}
+
 #navbar{
     background-color: transparent;
     display: flex;

@@ -21,6 +21,10 @@ a{
     width: 30px;
 }
 
+.tab{
+    font-size: 32px;
+}
+
 h1{
     color: white;
     font-size: 64px;
@@ -79,7 +83,7 @@ h1{
     width: 300px;
 }
 
-#button1{
+.button1{
     background-color: #168039;
     border: 0;
     font-size: 48px;
@@ -90,7 +94,7 @@ h1{
     margin-top: 2rem;
 }
 
-#button1:hover{
+.button1:hover{
     background: #1a883f; 
     transition-duration: .2s;
 }
@@ -165,4 +169,5 @@ footer{
 .subcontainer{
     display: flex;
     justify-content: space-around;
+    padding: 2rem 0;
 }
