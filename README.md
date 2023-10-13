@@ -79,9 +79,10 @@ We will review your pull request and merge it if it's approved.
 
 Please ensure your code follows our coding standards, and include tests if applicable.
 
-Contact
+### Contact
 
   
 
 If you have any questions or need assistance, please contact me :
+[twitter](https://twitter.com/alifertah42)
 
